@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 부트스트랩 CSS 추가하기 -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- 부트스트랩 4.1.1 css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- 부트스트랩 4.1.1 js-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- JQuery 3.3.1-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Font awesome 4.7.0-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- carousel custom css-->
+    <link rel="stylesheet" href="/css/carousel.css">
+    <style type="text/css">* {}</style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Quick Pool</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Homepage <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">회사소개</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">로그인</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">해주세요</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">합니다</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="검색할 지역을 입력하세요." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">검색</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide" src="/img/3.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1>신속한 시스템, Quick Pool</h1>
+                        <p>운송과 배송의 조합이 만들어낸 새로운 유통 시스템 Quick Pool, 지금 바로 가입하고 이용해 보세요!</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">바로 가입하기</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="/img/1.jpg" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption text-center">
+                        <h1>빠르고 간편한 Quick Pool을 소개합니다.</h1>
+                        <p>저희 회사는 유통/운송 전반에 걸친 다양한 문제를 해결하기 위해 동분서주 하고있습니다. 회사의 비전을 확인해 보십시오.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">더 알아보기</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="/img/2.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1>더 빠르고 신속하게 사람들을 한 곳으로 묶어줍니다.</h1>
+                        <p>원하는 곳에 물건을 보내고 싶으십니까? 빠르게 보내야 합니까? 거기다가 목적지까지 최대한 빠르게 도착해야하는데 여건이 <br>안되서 카풀을 이용해야 합니까? 이 두가지 고민을 한번에 해결할 수 있게 도와드리겠습니다. 지금 당장 확인하십시오.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">리스트 확인하기</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="/img/small-1.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>빠릅니다</h2>
+                <p>사람들은 누구나 원하는 목적을 가지고 있고 이를 빠르게 해결하기 위해 동분서주 합니다. 하지만 원하는 만큼 빠르게 일이 풀리지 않습니다. 그렇기 위해 저희는 Quick Pool 이라는 대안책을 제시했습니다.</p>
+                <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="/img/small-2.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>간편합니다</h2>
+                <p>언제까지 택배 보내느라 우체국이나 편의점을 가고 기사가 올때 까지 기다립니까? Quick Pool은 간단하게 웹 사이트에서 일을 신청하면 운송이건 배송이건 당일에 빠르게 처리됩니다!</p>
+                <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="/img/small-3.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>걱정없습니다</h2>
+                <p>하긴 만사가 빠르게 해결되면 기분은 좋을겁니다. 하지만 빨리 되는 만큼 뭐가 잘못되지 않을까 걱정스럽습니까? Quick Pool에서는 실시간으로 현재 물건의 상태 등을 확인 할 수 있으며 운전하는 사람의 위치는 어디인지 파악할 수 있어 안심할 수 있습니다.</p>
+                <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">당장 신청하십시오. <span class="text-muted">그리고 해결하십시오.</span></h2>
+                <p class="lead">이 신속한 시스템이야 말로 21세기 사회에 좀더 보탬이 될 수 있도록 노력하기 위한 고려사항중의 하나로 제안되었습니다.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="/img/bottom-1.jpg" data-holder-rendered="true">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading"><span class="text-muted">완벽에는 못 미쳐도 해결사에게 부탁하십시오.</span></h2>
+                <p class="lead">빠름빠름 문화에 찌든 우리나라 사람들에게 있어서 암을 해소하기 위해 등장했습니다. 우리는 모든걸 최대한 신속하게 처리하기 위해서 이 자리에 모였고, 이를 실행하기 위해서 움직입니다.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" alt="500x500" src="/img/bottom-2.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">빠른 만큼 서로에게 윈윈입니다 <span class="text-muted">끝났죠?</span></h2>
+                <p class="lead">시간은 알고보면 돈 주고 사는것과 마찬가지입니다. 기존의 퀵의 가격을 보면 입이 쩍벌어집니다. 멀리 가는데 대중교통 비용 또한 마찬가지입니다. 마음이 맞는 이들이 모여서 자원을 절약할 수 있는 새로운 장을 만들어 보는것이 어떻습니까? <br>암이 낫는 것을 경험하실 수 있습니다.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" alt="500x500" src="/img/bottom-3.jpg" data-holder-rendered="true" style="width: 500px; height: 500px;">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-right"><a href="#">상위로</a></p>
+        <p>© 2018 Company Quick Pool Creative Group Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+</main>
+<!-- Javascript on Mainpage function-->
+<script type="text/javascript" src="/js/src/alert.js"></script>
+<script type="text/javascript" src="/js/src/button.js"></script>
+<script type="text/javascript" src="/js/src/carousel.js"></script>
+<script type="text/javascript" src="/js/src/collapse.js"></script>
+<script type="text/javascript" src="/js/src/dropdown.js"></script>
+<script type="text/javascript" src="/js/src/index.js"></script>
+<script type="text/javascript" src="/js/src/modal.js"></script>
+<script type="text/javascript" src="/js/src/popover.js"></script>
+<script type="text/javascript" src="/js/src/scrollspy.js"></script>
+<script type="text/javascript" src="/js/src/tab.js"></script>
+<script type="text/javascript" src="/js/src/tooltip.js"></script>
+<script type="text/javascript" src="/js/src/util.js"></script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>window.jQuery || document.write('<script src="/js/jquery-slim.min.js"><\/script>')</script>
+<script src="/js/popper.min.js"></script>
+<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="/js/holder.min.js"></script>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none;
+visibility: hidden; position: absolute; top: -100%; left: -100%;">
+    <defs>
+    <style type="text/css"></style>
+    </defs>
+    <text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text>
+</svg>
+</body></html>
